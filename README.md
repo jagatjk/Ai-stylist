@@ -4,6 +4,8 @@ StylistAI is a fashion catalogue and virtual try-on prototype. The React fronten
 
 For the faculty-facing architecture, data details, algorithms, dependencies, validation scope, and limitations, see [PROJECT_OVERVIEW.md](PROJECT_OVERVIEW.md).
 
+The Colab setup and authenticated CatVTON API cells are documented in [notebooks/catvton_colab.ipynb](notebooks/catvton_colab.ipynb). This is a clean, output-free project notebook; the live GPU runtime and ngrok URL/key are temporary and must not be committed.
+
 ## Requirements
 
 - Git and Git LFS
