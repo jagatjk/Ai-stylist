@@ -6,6 +6,8 @@ For the faculty-facing architecture, data details, algorithms, dependencies, val
 
 The Colab setup and authenticated CatVTON API cells are documented in [notebooks/catvton_colab.ipynb](notebooks/catvton_colab.ipynb). This is a clean, output-free project notebook; the live GPU runtime and ngrok URL/key are temporary and must not be committed.
 
+The earlier CLIP semantic-search experiment is preserved in [notebooks/stylistai_colab.ipynb](notebooks/stylistai_colab.ipynb). It loads embeddings and product metadata from Google Drive and is not the recommendation engine currently used by the app. Its API key is requested through hidden input; all downloaded notebook outputs have been removed.
+
 ## Requirements
 
 - Git and Git LFS
