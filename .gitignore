@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+backend/.env
+.env
+.env.*
+!.env.example
+
+# Node and build output
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+
+# Local runtime output
+*.log
+.ipynb_checkpoints/
+
+# Source archive and unused/generated data artifacts
+data/fashion-dataset/
+data/fashion-1000-new.zip
+data/fashion_embeddings.npy
+data/fashion_products_matched.csv
+data/styles.csv
